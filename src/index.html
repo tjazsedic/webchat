@@ -1,13 +1,39 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>WrbChatApp</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-</head>
-<body>
-  <app-root></app-root>
-</body>
-</html>
+<style>
+
+</style>
+<div class="toolbar" role="banner">
+  <img
+    width="50"
+    alt="WeChat Logo"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCJ95ZopMp7gw4PBKeGithMhLf-7s2wyvEEw&usqp=CAU"
+  />
+    <div class="spacer"></div> 
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+ <div class="container">
+   <div class="d-flex align-items-center">
+    <button type="button" class="btn btn-primary me-3">
+      Support
+    </button>
+        <button type="button" class="btn btn-link px-3 me-2">
+          Login
+        </button>
+        <button type="button" class="btn btn-primary me-3">
+          Register
+        </button>
+        <a
+          class="btn btn-dark px-3"
+          href="https://github.com/mdbootstrap/mdb-ui-kit"
+          role="button">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
+<div id="index-gallery">
+  <div class="content">
+    <img src="https://www.callcentrehelper.com/images/stories/2017/05/chat-760.jpg" alt=""/>
+    <h1><strong>Register now to see more!</strong></h1>
+  </div>
+</div>
+<router-outlet></router-outlet>
